@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.bg-image {
+  background-image: url("/image/imagee.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.bg-image-2 {
+  background-image: url("/image/history-2.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  opacity: 0.9;
+}
+.hero-text {
+}
+.bold-1 {
+  font-weight: bold;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+.btn-custom {
+  /* background: red; */
+  border: none;
+  padding: 6px 25px;
+}
+.box {
+  /* background: sk; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 5rem;
+  margin-bottom: 6px;
+}
+.font-10 {
+  font-size: 9px;
+}
+.font-12{
+    font-size: 11px;
+    
+}
+.center-reverse {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.text-right{
+    text-align: right;
+
+}
